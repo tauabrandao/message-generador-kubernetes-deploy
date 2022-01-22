@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "c6708267-17a6-4e16-9ebb-5331213fdb76",
+		"name": "Article Configuration Server Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "kubernetes",
+			"item": [
+				{
+					"name": "Hello Message",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{mg-api-url}}/message/welcome/user",
+							"host": [
+								"{{mg-api-url}}"
+							],
+							"path": [
+								"message",
+								"welcome",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bye Message",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{mg-api-url}}/message/bye/user",
+							"host": [
+								"{{mg-api-url}}"
+							],
+							"path": [
+								"message",
+								"bye",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
