@@ -4,7 +4,7 @@ In this repository you will find a brief example of deployment configuration fil
 
 Requirements: You need to have kubernetes installed on your machine.
 
-With a Kubernetes Cluster installed, just run the /prod-deploy/deploy.sh file.
+With a Kubernetes Cluster installed, just run the /local-deploy/deploy.sh file.
 
 You can send requests through Postman. Just import the message-generator-requests.postman_collection.json file and change the {{mg-api-url}} variable to the url generated at the end of the stack deployment.
 
