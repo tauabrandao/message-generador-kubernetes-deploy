@@ -1,4 +1,4 @@
-# Message generador kubernetes deploy
+# Message generator kubernetes deploy
 
 In this repository you will find a brief example of deployment configuration files from a Microservice Stack in a Kubernetes cluster.
 
